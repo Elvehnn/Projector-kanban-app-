@@ -4,7 +4,7 @@ RS SChool React course final task
 1.  [Задание](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/final-task-project-management-app.md)
 2. 
 ![image](https://user-images.githubusercontent.com/78958096/170518956-73202a4e-b5a6-4016-ad68-8128c76c29e6.png)
-3. [Projector  deploy link ](https://rs-projector.herokuapp.com/)
+
 
 ### Welcome route - max 7 балов
 
