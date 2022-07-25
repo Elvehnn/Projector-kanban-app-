@@ -2,7 +2,8 @@
 RS SChool React course final task
 
 1.  [Задание](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/react/final-task-project-management-app.md)
-2. Deploy - projector-app.netlify.app
+2. Deploy - https://projector-app.netlify.app/
+
 ![image](https://user-images.githubusercontent.com/70837634/180772943-d364de46-6287-41eb-b20f-99b0c7052767.png)
 3. Моя часть - страницы: приветствие, список досок и страница борда (верстка, запросы, функционал). Доп. функционал - выбор цвета для колонки. Дизайн, стилизация, адаптивная верстка.
 
