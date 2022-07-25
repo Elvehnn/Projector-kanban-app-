@@ -7,11 +7,11 @@ export const en = {
   changeBgr: 'change wallpaper',
   editProfile: 'Edit profile',
 
-  names: ['Sergey', 'Ravganiyat', 'Elena'],
+  names: ['Elena', 'Sergey', 'Ravganiyat'],
   jobs: [
+    'Pages: layout, api queries, basic functions.  Column color choice. Design, adaptive.',
     'Project build. CI/CD. Routing. Localization. Header. Styles.',
     `Authorization. Drag'n'drop. User profile. Preloader.`,
-    'Welcome and board pages.  Styles, adaptive. Add functionality.',
   ],
   gitHubLink: 'View Github',
   addBoard: 'Add new board',

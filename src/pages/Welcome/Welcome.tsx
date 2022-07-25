@@ -111,8 +111,8 @@ const Welcome = () => {
                   <Card
                     sx={{
                       p: '10px',
-                      height: '290px',
-                      width: '190px',
+                      height: '320px',
+                      width: '220px',
                       display: 'flex',
                       flexDirection: 'column',
                       alignItems: 'center',
