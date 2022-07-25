@@ -294,22 +294,6 @@ export const Board = () => {
       <Header />
 
       <div className="board" style={{ backgroundImage: `url(${bgrUrl})` }}>
-        <Button
-          variant="contained"
-          sx={{
-            position: 'absolute',
-            top: '108px',
-            left: '46px',
-            backgroundColor: 'background.paper',
-            color: 'primary.main',
-            p: '12px',
-            opacity: 0.9,
-          }}
-          onClick={() => navigate(-1)}
-        >
-          <KeyboardBackspaceIcon sx={{ fontSize: '42px' }} />
-        </Button>
-
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           {isLoading ? (
             <TitleSkeleton />
@@ -325,8 +309,24 @@ export const Board = () => {
                   p: '16px',
                   display: 'flex',
                   alignItems: 'center',
+                  position: 'relative',
                 }}
               >
+                <Button
+                  variant="contained"
+                  sx={{
+                    position: 'absolute',
+                    top: '12px',
+                    left: '-80px',
+                    backgroundColor: 'background.paper',
+                    color: 'primary.main',
+                    p: '0',
+                    opacity: 0.9,
+                  }}
+                  onClick={() => navigate(-1)}
+                >
+                  <KeyboardBackspaceIcon sx={{ fontSize: '42px' }} />
+                </Button>
                 <Typography variant="h4" color="text.secondary" sx={{ mx: '10px' }}>
                   {board?.title}:
                 </Typography>
@@ -337,6 +337,7 @@ export const Board = () => {
             )
           )}
         </Box>
+
         {isLoading ? (
           <ColumnSkeleton />
         ) : (
